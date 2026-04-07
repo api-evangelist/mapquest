@@ -8,12 +8,12 @@ description: >-
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - Maps
-  - Mapping
-  - Routing
   - Geocoding
-  - Traffic
+  - Mapping
+  - Maps
   - Navigation
+  - Routing
+  - Traffic
 url: >-
   https://raw.githubusercontent.com/api-evangelist/mapquest/refs/heads/main/apis.yml
 created: '2025-01-07'
@@ -29,9 +29,9 @@ apis:
     humanURL: https://developer.mapquest.com/documentation/directions-api/
     baseURL: https://www.mapquestapi.com/directions/v2
     tags:
-      - Routing
       - Directions
       - Navigation
+      - Routing
     properties:
       - type: Documentation
         url: https://developer.mapquest.com/documentation/directions-api/
@@ -69,8 +69,8 @@ apis:
     humanURL: https://developer.mapquest.com/documentation/traffic-api/
     baseURL: https://www.mapquestapi.com/traffic/v2
     tags:
-      - Traffic
       - Incidents
+      - Traffic
     properties:
       - type: Documentation
         url: https://developer.mapquest.com/documentation/traffic-api/
