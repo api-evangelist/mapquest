@@ -1,0 +1,198 @@
+specification: FinOps Framework
+specificationVersion: '1.0'
+alignedWith:
+  framework: FinOps Foundation Framework
+  frameworkUrl: https://www.finops.org/framework/
+  dataSpec: FOCUS
+  dataSpecVersion: '1.3'
+  dataSpecUrl: https://focus.finops.org/focus-specification/v1-3/
+provider: MapQuest
+providerId: mapquest
+publisherName: MapQuest
+serviceCategory: API
+created: '2026-05-04'
+modified: '2026-05-04'
+tags:
+  - Geocoding
+  - Mapping
+  - Maps
+  - Navigation
+  - Routing
+  - Traffic
+  - FinOps
+  - Cost Management
+  - FOCUS
+description: FinOps framework definition for the MapQuest API surface. Provides a FOCUS-aligned mapping
+  for cost allocation, usage measurement, and unit-economics reporting across the provider's APIs.
+principles:
+  - name: Visibility
+    description: Make API consumption costs visible to engineering, product, and finance teams in near
+      real-time.
+  - name: Allocation
+    description: Tag every chargeable API call with the consuming team, environment, application, and
+      feature so cost can be allocated.
+  - name: Optimization
+    description: Continuously evaluate request patterns, caching, batching, and tier selection to reduce
+      cost per useful unit of work.
+  - name: Accountability
+    description: Establish budget owners and chargeback or showback flows for each consuming team.
+domains:
+  - name: Understand Usage and Cost
+    capabilities:
+      - Data Ingestion
+      - Allocation
+      - Reporting and Analytics
+      - Anomaly Management
+  - name: Quantify Business Value
+    capabilities:
+      - Planning and Estimating
+      - Forecasting
+      - Budgeting
+      - Benchmarking
+      - Unit Economics
+  - name: Optimize Usage and Cost
+    capabilities:
+      - Architecting for Cloud
+      - Rate Optimization
+      - Workload Optimization
+      - Cloud Sustainability
+      - Licensing and SaaS
+  - name: Manage the FinOps Practice
+    capabilities:
+      - FinOps Practice Operations
+      - FinOps Education and Enablement
+      - Invoicing and Chargeback
+      - Onboarding Workloads
+      - Intersecting Disciplines
+billingModel:
+  pricingCategory: Usage-Based
+  billingFrequency: Monthly
+  billingCurrency: USD
+  chargeCategories:
+    - Usage
+    - Purchase
+    - Tax
+    - Credit
+    - Adjustment
+  chargeFrequency: Recurring
+focusColumns:
+  ServiceName: MapQuest
+  ServiceCategory: Developer Tools / API
+  ProviderName: MapQuest
+  PublisherName: MapQuest
+  InvoiceIssuerName: MapQuest
+  PricingCategory: Usage-Based
+  PricingUnit: request
+  BillingCurrency: USD
+  ChargeCategory: Usage
+meters:
+  - name: api_requests
+    description: Count of billable API requests
+    unit: request
+    aggregation: sum
+    dimensions:
+      - api
+      - endpoint
+      - tier
+      - region
+      - consumer
+  - name: data_egress
+    description: Bytes returned over the network in API responses
+    unit: GB
+    aggregation: sum
+    dimensions:
+      - api
+      - region
+      - consumer
+  - name: compute_seconds
+    description: Server-side compute consumed by the request, where applicable
+    unit: second
+    aggregation: sum
+    dimensions:
+      - api
+      - endpoint
+      - tier
+apis:
+  - name: MapQuest Directions API
+    baseURL: https://www.mapquestapi.com/directions/v2
+    tags:
+      - Directions
+      - Navigation
+      - Routing
+    serviceName: MapQuest Directions API
+    serviceCategory: API
+  - name: MapQuest Geocoding API
+    baseURL: https://www.mapquestapi.com/geocoding/v1
+    tags:
+      - Geocoding
+      - Location
+    serviceName: MapQuest Geocoding API
+    serviceCategory: API
+  - name: MapQuest Static Map API
+    baseURL: https://www.mapquestapi.com/staticmap/v5
+    tags:
+      - Maps
+      - Static Maps
+    serviceName: MapQuest Static Map API
+    serviceCategory: API
+  - name: MapQuest Traffic API
+    baseURL: https://www.mapquestapi.com/traffic/v2
+    tags:
+      - Incidents
+      - Traffic
+    serviceName: MapQuest Traffic API
+    serviceCategory: API
+  - name: MapQuest Search API
+    baseURL: https://www.mapquestapi.com/search/v2
+    tags:
+      - Points of Interest
+      - Search
+    serviceName: MapQuest Search API
+    serviceCategory: API
+  - name: MapQuest Place Search API
+    baseURL: https://www.mapquestapi.com/search/v5
+    tags:
+      - Place Search
+      - Points of Interest
+      - Search
+    serviceName: MapQuest Place Search API
+    serviceCategory: API
+  - name: MapQuest Search Ahead API
+    baseURL: https://www.mapquestapi.com/search/v5
+    tags:
+      - Autocomplete
+      - Search
+      - Search Ahead
+    serviceName: MapQuest Search Ahead API
+    serviceCategory: API
+  - name: MapQuest Geolocation API
+    baseURL: https://www.mapquestapi.com/geolocation/v1
+    tags:
+      - Geolocation
+      - Location
+    serviceName: MapQuest Geolocation API
+    serviceCategory: API
+  - name: MapQuest Icons API
+    baseURL: https://www.mapquestapi.com/icons/v2
+    tags:
+      - Icons
+      - Maps
+    serviceName: MapQuest Icons API
+    serviceCategory: API
+  - name: MapQuest Data Manager API
+    baseURL: https://www.mapquestapi.com/datamanager/v2
+    tags:
+      - Custom Data
+      - Data Management
+    serviceName: MapQuest Data Manager API
+    serviceCategory: API
+unitEconomics:
+  - name: Cost per 1K Requests
+    metric: billed_cost / (api_requests / 1000)
+    target: TBD
+  - name: Cost per Active Consumer
+    metric: billed_cost / active_consumers
+    target: TBD
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
