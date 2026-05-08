@@ -35,6 +35,8 @@ apis:
     properties:
       - type: Documentation
         url: https://developer.mapquest.com/documentation/directions-api/
+      - type: OpenAPI
+        url: openapi/mapquest-openapi.yml
   - aid: mapquest:mapquest-geocoding-api
     name: MapQuest Geocoding API
     description: >-
