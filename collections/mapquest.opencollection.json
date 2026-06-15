@@ -1,0 +1,145 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "MapQuest Directions API",
+    "version": "2.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Calculate a route between locations",
+        "type": "http"
+      },
+      "http": {
+        "method": "GET",
+        "url": "https://www.mapquestapi.com/directions/v2/route"
+      },
+      "docs": "Calculate a route between locations"
+    },
+    {
+      "info": {
+        "name": "Calculate a route between locations",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://www.mapquestapi.com/directions/v2/route"
+      },
+      "docs": "Calculate a route between locations"
+    },
+    {
+      "info": {
+        "name": "Calculate an optimized route",
+        "type": "http"
+      },
+      "http": {
+        "method": "GET",
+        "url": "https://www.mapquestapi.com/directions/v2/optimizedroute"
+      },
+      "docs": "Calculate an optimized route"
+    },
+    {
+      "info": {
+        "name": "Calculate an optimized route",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://www.mapquestapi.com/directions/v2/optimizedroute"
+      },
+      "docs": "Calculate an optimized route"
+    },
+    {
+      "info": {
+        "name": "Calculate a route matrix",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://www.mapquestapi.com/directions/v2/routematrix"
+      },
+      "docs": "Calculate a route matrix"
+    },
+    {
+      "info": {
+        "name": "Submit an asynchronous route matrix job",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://www.mapquestapi.com/directions/v2/routematrix/jobs"
+      },
+      "docs": "Submit an asynchronous route matrix job"
+    },
+    {
+      "info": {
+        "name": "Retrieve route matrix job status",
+        "type": "http"
+      },
+      "http": {
+        "method": "GET",
+        "url": "https://www.mapquestapi.com/directions/v2/routematrix/jobs/:jobId",
+        "params": [
+          {
+            "name": "jobId",
+            "value": "",
+            "type": "path"
+          }
+        ]
+      },
+      "docs": "Retrieve route matrix job status"
+    },
+    {
+      "info": {
+        "name": "Retrieve route matrix job results",
+        "type": "http"
+      },
+      "http": {
+        "method": "GET",
+        "url": "https://www.mapquestapi.com/directions/v2/routematrix/jobs/:jobId/results",
+        "params": [
+          {
+            "name": "jobId",
+            "value": "",
+            "type": "path"
+          }
+        ]
+      },
+      "docs": "Retrieve route matrix job results"
+    },
+    {
+      "info": {
+        "name": "Calculate alternate routes",
+        "type": "http"
+      },
+      "http": {
+        "method": "GET",
+        "url": "https://www.mapquestapi.com/directions/v2/alternateroutes"
+      },
+      "docs": "Calculate alternate routes"
+    },
+    {
+      "info": {
+        "name": "Calculate alternate routes",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://www.mapquestapi.com/directions/v2/alternateroutes"
+      },
+      "docs": "Calculate alternate routes"
+    },
+    {
+      "info": {
+        "name": "Retrieve route shape geometry",
+        "type": "http"
+      },
+      "http": {
+        "method": "GET",
+        "url": "https://www.mapquestapi.com/directions/v2/routeshape"
+      },
+      "docs": "Retrieve route shape geometry"
+    }
+  ],
+  "bundled": true
+}
