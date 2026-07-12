@@ -154,6 +154,8 @@ apis:
       - type: Documentation
         url: https://developer.mapquest.com/documentation/data-manager-api/v2/
 common:
+  - type: DomainSecurity
+    url: security/mapquest-domain-security.yml
   - type: GitHubOrganization
     url: https://github.com/MapQuest
   - type: LinkedIn
@@ -172,6 +174,8 @@ common:
     url: https://hello.mapquest.com/terms-of-use
   - type: PrivacyPolicy
     url: https://hello.mapquest.com/privacy-policy
+  - url: https://developer.mapquest.com/blog/archive/
+    type: Blog
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
