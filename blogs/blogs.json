@@ -1,0 +1,14 @@
+{
+  "repo": "mapquest",
+  "feeds": [
+    {
+      "source": "https://developer.mapquest.com/blog/archive/",
+      "feed_url": "https://developer.mapquest.com/blog/archive/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    }
+  ],
+  "fetched": "2026-07-11T11:50:51Z",
+  "post_count": 5
+}
