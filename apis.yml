@@ -154,6 +154,8 @@ apis:
       - type: Documentation
         url: https://developer.mapquest.com/documentation/data-manager-api/v2/
 common:
+  - type: AgenticAccess
+    url: agentic-access/mapquest-agentic-access.yml
   - type: DomainSecurity
     url: security/mapquest-domain-security.yml
   - type: GitHubOrganization
