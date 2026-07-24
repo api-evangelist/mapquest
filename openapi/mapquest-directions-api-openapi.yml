@@ -1,16 +1,13 @@
 openapi: 3.1.0
 info:
   title: MapQuest Directions API
-  description: >-
-    Minimal OpenAPI 3.1 specification for the MapQuest Directions API,
-    covering route, optimized route, route matrix, alternate routes,
-    and route shape endpoints.
+  description: Minimal OpenAPI 3.1 specification for the MapQuest Directions API, covering route, optimized route, route matrix, alternate routes, and route shape endpoints.
   version: 2.0.0
-x-generated-from: https://developer.mapquest.com/documentation/directions-api/
-x-generated-by: claude-crawl-2026-05-08
 servers:
-  - url: https://www.mapquestapi.com
-    description: MapQuest API
+- url: https://www.mapquestapi.com
+  description: MapQuest API
+tags:
+- name: Directions
 paths:
   /directions/v2/route:
     get:
@@ -21,6 +18,8 @@ paths:
           description: Route result
         default:
           description: Error response
+      tags:
+      - Directions
     post:
       operationId: postRoute
       summary: Calculate a route between locations
@@ -29,6 +28,8 @@ paths:
           description: Route result
         default:
           description: Error response
+      tags:
+      - Directions
   /directions/v2/optimizedroute:
     get:
       operationId: getOptimizedRoute
@@ -38,6 +39,8 @@ paths:
           description: Optimized route result
         default:
           description: Error response
+      tags:
+      - Directions
     post:
       operationId: postOptimizedRoute
       summary: Calculate an optimized route
@@ -46,6 +49,8 @@ paths:
           description: Optimized route result
         default:
           description: Error response
+      tags:
+      - Directions
   /directions/v2/routematrix:
     post:
       operationId: postRouteMatrix
@@ -55,6 +60,8 @@ paths:
           description: Route matrix result
         default:
           description: Error response
+      tags:
+      - Directions
   /directions/v2/routematrix/jobs:
     post:
       operationId: createRouteMatrixJob
@@ -64,36 +71,42 @@ paths:
           description: Job submitted
         default:
           description: Error response
+      tags:
+      - Directions
   /directions/v2/routematrix/jobs/{jobId}:
     get:
       operationId: getRouteMatrixJob
       summary: Retrieve route matrix job status
       parameters:
-        - name: jobId
-          in: path
-          required: true
-          schema:
-            type: string
+      - name: jobId
+        in: path
+        required: true
+        schema:
+          type: string
       responses:
         '200':
           description: Job status
         default:
           description: Error response
+      tags:
+      - Directions
   /directions/v2/routematrix/jobs/{jobId}/results:
     get:
       operationId: getRouteMatrixJobResults
       summary: Retrieve route matrix job results
       parameters:
-        - name: jobId
-          in: path
-          required: true
-          schema:
-            type: string
+      - name: jobId
+        in: path
+        required: true
+        schema:
+          type: string
       responses:
         '200':
           description: Job results
         default:
           description: Error response
+      tags:
+      - Directions
   /directions/v2/alternateroutes:
     get:
       operationId: getAlternateRoutes
@@ -103,6 +116,8 @@ paths:
           description: Alternate routes result
         default:
           description: Error response
+      tags:
+      - Directions
     post:
       operationId: postAlternateRoutes
       summary: Calculate alternate routes
@@ -111,6 +126,8 @@ paths:
           description: Alternate routes result
         default:
           description: Error response
+      tags:
+      - Directions
   /directions/v2/routeshape:
     get:
       operationId: getRouteShape
@@ -120,4 +137,7 @@ paths:
           description: Route shape result
         default:
           description: Error response
-components: {}
+      tags:
+      - Directions
+x-generated-from: https://developer.mapquest.com/documentation/directions-api/
+x-generated-by: claude-crawl-2026-05-08
