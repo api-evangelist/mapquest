@@ -1,0 +1,14 @@
+{
+  "provider": "mapquest",
+  "sources": [
+    "mapquest-directions-api-openapi.yml"
+  ],
+  "outputs": [
+    "mapquest-directions-api-openapi.yml"
+  ],
+  "archived": [],
+  "errors": [],
+  "warnings": [],
+  "notes": [],
+  "skipped": []
+}

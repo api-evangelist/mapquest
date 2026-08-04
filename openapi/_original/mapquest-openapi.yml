@@ -1,0 +1,123 @@
+openapi: 3.1.0
+info:
+  title: MapQuest Directions API
+  description: >-
+    Minimal OpenAPI 3.1 specification for the MapQuest Directions API,
+    covering route, optimized route, route matrix, alternate routes,
+    and route shape endpoints.
+  version: 2.0.0
+x-generated-from: https://developer.mapquest.com/documentation/directions-api/
+x-generated-by: claude-crawl-2026-05-08
+servers:
+  - url: https://www.mapquestapi.com
+    description: MapQuest API
+paths:
+  /directions/v2/route:
+    get:
+      operationId: getRoute
+      summary: Calculate a route between locations
+      responses:
+        '200':
+          description: Route result
+        default:
+          description: Error response
+    post:
+      operationId: postRoute
+      summary: Calculate a route between locations
+      responses:
+        '200':
+          description: Route result
+        default:
+          description: Error response
+  /directions/v2/optimizedroute:
+    get:
+      operationId: getOptimizedRoute
+      summary: Calculate an optimized route
+      responses:
+        '200':
+          description: Optimized route result
+        default:
+          description: Error response
+    post:
+      operationId: postOptimizedRoute
+      summary: Calculate an optimized route
+      responses:
+        '200':
+          description: Optimized route result
+        default:
+          description: Error response
+  /directions/v2/routematrix:
+    post:
+      operationId: postRouteMatrix
+      summary: Calculate a route matrix
+      responses:
+        '200':
+          description: Route matrix result
+        default:
+          description: Error response
+  /directions/v2/routematrix/jobs:
+    post:
+      operationId: createRouteMatrixJob
+      summary: Submit an asynchronous route matrix job
+      responses:
+        '202':
+          description: Job submitted
+        default:
+          description: Error response
+  /directions/v2/routematrix/jobs/{jobId}:
+    get:
+      operationId: getRouteMatrixJob
+      summary: Retrieve route matrix job status
+      parameters:
+        - name: jobId
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Job status
+        default:
+          description: Error response
+  /directions/v2/routematrix/jobs/{jobId}/results:
+    get:
+      operationId: getRouteMatrixJobResults
+      summary: Retrieve route matrix job results
+      parameters:
+        - name: jobId
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Job results
+        default:
+          description: Error response
+  /directions/v2/alternateroutes:
+    get:
+      operationId: getAlternateRoutes
+      summary: Calculate alternate routes
+      responses:
+        '200':
+          description: Alternate routes result
+        default:
+          description: Error response
+    post:
+      operationId: postAlternateRoutes
+      summary: Calculate alternate routes
+      responses:
+        '200':
+          description: Alternate routes result
+        default:
+          description: Error response
+  /directions/v2/routeshape:
+    get:
+      operationId: getRouteShape
+      summary: Retrieve route shape geometry
+      responses:
+        '200':
+          description: Route shape result
+        default:
+          description: Error response
+components: {}
