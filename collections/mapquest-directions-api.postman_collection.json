@@ -1,0 +1,1088 @@
+{
+  "item": [
+    {
+      "id": "f2a25025-43f5-4e1c-9d2d-bfa1a3884c20",
+      "name": "Directions",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "36300a36-ca6b-4b20-a224-02e1fe0b7419",
+          "name": "Calculate a route between locations",
+          "request": {
+            "name": "Calculate a route between locations",
+            "description": {},
+            "url": {
+              "path": [
+                "directions",
+                "v2",
+                "route"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "method": "GET",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "83b96612-2e00-43ff-803d-1b570e5c9629",
+              "name": "Route result",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "directions",
+                    "v2",
+                    "route"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            },
+            {
+              "id": "3f1e21dc-c0dc-46c0-bc06-95175bebf4ce",
+              "name": "Error response",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "directions",
+                    "v2",
+                    "route"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "method": "GET",
+                "body": {}
+              },
+              "status": "Internal Server Error",
+              "code": 500,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "d998db50-1313-43c7-b072-a2610a50f5fa",
+          "name": "Calculate a route between locations",
+          "request": {
+            "name": "Calculate a route between locations",
+            "description": {},
+            "url": {
+              "path": [
+                "directions",
+                "v2",
+                "route"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "method": "POST",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "27408dca-f4b8-4a18-958e-d19c0e14afa7",
+              "name": "Route result",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "directions",
+                    "v2",
+                    "route"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "method": "POST",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            },
+            {
+              "id": "d5d524cc-e59c-40d0-8c8a-c6d7f50cf6da",
+              "name": "Error response",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "directions",
+                    "v2",
+                    "route"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "method": "POST",
+                "body": {}
+              },
+              "status": "Internal Server Error",
+              "code": 500,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "2eabbade-5538-4421-876f-15b04a7cb9ec",
+          "name": "Calculate an optimized route",
+          "request": {
+            "name": "Calculate an optimized route",
+            "description": {},
+            "url": {
+              "path": [
+                "directions",
+                "v2",
+                "optimizedroute"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "method": "GET",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "96df0af6-6d6e-4476-b853-13c980c9c2d9",
+              "name": "Optimized route result",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "directions",
+                    "v2",
+                    "optimizedroute"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            },
+            {
+              "id": "ccbb9c0b-bf5d-44bd-ac25-14ca81a1f116",
+              "name": "Error response",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "directions",
+                    "v2",
+                    "optimizedroute"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "method": "GET",
+                "body": {}
+              },
+              "status": "Internal Server Error",
+              "code": 500,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "84a44c6e-ae04-4cce-a4f8-865066192876",
+          "name": "Calculate an optimized route",
+          "request": {
+            "name": "Calculate an optimized route",
+            "description": {},
+            "url": {
+              "path": [
+                "directions",
+                "v2",
+                "optimizedroute"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "method": "POST",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "e7255838-1a2f-4741-a04f-08d1a0b9bf3a",
+              "name": "Optimized route result",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "directions",
+                    "v2",
+                    "optimizedroute"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "method": "POST",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            },
+            {
+              "id": "0218db62-0711-4c20-9204-1463be43136a",
+              "name": "Error response",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "directions",
+                    "v2",
+                    "optimizedroute"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "method": "POST",
+                "body": {}
+              },
+              "status": "Internal Server Error",
+              "code": 500,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "575d4e1f-9825-4d0b-9adb-79991e1ea8f5",
+          "name": "Calculate a route matrix",
+          "request": {
+            "name": "Calculate a route matrix",
+            "description": {},
+            "url": {
+              "path": [
+                "directions",
+                "v2",
+                "routematrix"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "method": "POST",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "a51d16ec-bac0-47a3-a9f4-f964ec89e63b",
+              "name": "Route matrix result",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "directions",
+                    "v2",
+                    "routematrix"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "method": "POST",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            },
+            {
+              "id": "3085e196-0062-41c7-a7e7-761c2ab904be",
+              "name": "Error response",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "directions",
+                    "v2",
+                    "routematrix"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "method": "POST",
+                "body": {}
+              },
+              "status": "Internal Server Error",
+              "code": 500,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "c343e029-bb0c-4500-8a91-84deaed0a40c",
+          "name": "Submit an asynchronous route matrix job",
+          "request": {
+            "name": "Submit an asynchronous route matrix job",
+            "description": {},
+            "url": {
+              "path": [
+                "directions",
+                "v2",
+                "routematrix",
+                "jobs"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "method": "POST",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "25ccff49-ccbe-4a27-b863-56ef1109ed5f",
+              "name": "Job submitted",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "directions",
+                    "v2",
+                    "routematrix",
+                    "jobs"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "method": "POST",
+                "body": {}
+              },
+              "status": "Accepted",
+              "code": 202,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            },
+            {
+              "id": "6c689391-6c7b-46ad-9459-4eff51a3f932",
+              "name": "Error response",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "directions",
+                    "v2",
+                    "routematrix",
+                    "jobs"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "method": "POST",
+                "body": {}
+              },
+              "status": "Internal Server Error",
+              "code": 500,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "9f2be872-7f0e-4428-a462-295f8bc6f4e4",
+          "name": "Retrieve route matrix job status",
+          "request": {
+            "name": "Retrieve route matrix job status",
+            "description": {},
+            "url": {
+              "path": [
+                "directions",
+                "v2",
+                "routematrix",
+                "jobs",
+                ":jobId"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "jobId",
+                  "description": "(Required) "
+                }
+              ]
+            },
+            "method": "GET",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "2306e980-ebe1-432b-bfc0-8e3277e7f84a",
+              "name": "Job status",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "directions",
+                    "v2",
+                    "routematrix",
+                    "jobs",
+                    ":jobId"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "type": "any",
+                      "value": "<string>",
+                      "key": "jobId",
+                      "description": "(Required) "
+                    }
+                  ]
+                },
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            },
+            {
+              "id": "45557ce4-6818-4947-848f-04aa07f4d2c7",
+              "name": "Error response",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "directions",
+                    "v2",
+                    "routematrix",
+                    "jobs",
+                    ":jobId"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "type": "any",
+                      "value": "<string>",
+                      "key": "jobId",
+                      "description": "(Required) "
+                    }
+                  ]
+                },
+                "method": "GET",
+                "body": {}
+              },
+              "status": "Internal Server Error",
+              "code": 500,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "cb6253db-c9b0-464f-975b-9c5a2aa4fce0",
+          "name": "Retrieve route matrix job results",
+          "request": {
+            "name": "Retrieve route matrix job results",
+            "description": {},
+            "url": {
+              "path": [
+                "directions",
+                "v2",
+                "routematrix",
+                "jobs",
+                ":jobId",
+                "results"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "jobId",
+                  "description": "(Required) "
+                }
+              ]
+            },
+            "method": "GET",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "857f6b13-dfea-4597-80a3-0c9a7ed8dfa8",
+              "name": "Job results",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "directions",
+                    "v2",
+                    "routematrix",
+                    "jobs",
+                    ":jobId",
+                    "results"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "type": "any",
+                      "value": "<string>",
+                      "key": "jobId",
+                      "description": "(Required) "
+                    }
+                  ]
+                },
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            },
+            {
+              "id": "b52ef685-e822-47da-a14c-5a47f6f73fed",
+              "name": "Error response",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "directions",
+                    "v2",
+                    "routematrix",
+                    "jobs",
+                    ":jobId",
+                    "results"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "type": "any",
+                      "value": "<string>",
+                      "key": "jobId",
+                      "description": "(Required) "
+                    }
+                  ]
+                },
+                "method": "GET",
+                "body": {}
+              },
+              "status": "Internal Server Error",
+              "code": 500,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "76506c5f-e5a3-4ba4-979c-42ea88e66007",
+          "name": "Calculate alternate routes",
+          "request": {
+            "name": "Calculate alternate routes",
+            "description": {},
+            "url": {
+              "path": [
+                "directions",
+                "v2",
+                "alternateroutes"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "method": "GET",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "994d2cd8-9598-42aa-9ef5-59e5e3f54ac5",
+              "name": "Alternate routes result",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "directions",
+                    "v2",
+                    "alternateroutes"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            },
+            {
+              "id": "ac11f8d3-6ac2-401d-971f-65bf9a398a04",
+              "name": "Error response",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "directions",
+                    "v2",
+                    "alternateroutes"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "method": "GET",
+                "body": {}
+              },
+              "status": "Internal Server Error",
+              "code": 500,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "097ad51b-5d94-4870-b4aa-ff5c3ecbce7b",
+          "name": "Calculate alternate routes",
+          "request": {
+            "name": "Calculate alternate routes",
+            "description": {},
+            "url": {
+              "path": [
+                "directions",
+                "v2",
+                "alternateroutes"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "method": "POST",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "f2974399-be95-410d-9a90-178654297de3",
+              "name": "Alternate routes result",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "directions",
+                    "v2",
+                    "alternateroutes"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "method": "POST",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            },
+            {
+              "id": "08df1088-c884-471f-b3d6-250cc3ad2998",
+              "name": "Error response",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "directions",
+                    "v2",
+                    "alternateroutes"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "method": "POST",
+                "body": {}
+              },
+              "status": "Internal Server Error",
+              "code": 500,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "c365fc23-37fe-4689-9827-2ee50c02878b",
+          "name": "Retrieve route shape geometry",
+          "request": {
+            "name": "Retrieve route shape geometry",
+            "description": {},
+            "url": {
+              "path": [
+                "directions",
+                "v2",
+                "routeshape"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "method": "GET",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "ec66962e-df91-4ca5-a2c2-befa0d62919f",
+              "name": "Route shape result",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "directions",
+                    "v2",
+                    "routeshape"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            },
+            {
+              "id": "974d5237-114e-4d8b-a716-0cadfd6057a6",
+              "name": "Error response",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "directions",
+                    "v2",
+                    "routeshape"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "method": "GET",
+                "body": {}
+              },
+              "status": "Internal Server Error",
+              "code": 500,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "https://www.mapquestapi.com",
+      "key": "baseUrl"
+    }
+  ],
+  "info": {
+    "_postman_id": "abcd22c2-a0d8-4789-ac98-72083a6f67f8",
+    "name": "MapQuest Directions API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "Minimal OpenAPI 3.1 specification for the MapQuest Directions API, covering route, optimized route, route matrix, alternate routes, and route shape endpoints.",
+      "type": "text/plain"
+    }
+  }
+}
