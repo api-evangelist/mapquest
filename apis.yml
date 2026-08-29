@@ -5,6 +5,18 @@ description: >-
   applications. The developer portal offers free API keys and documentation for directions, static maps, geocoding, and
   traffic incident services.
 type: Index
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: true
+  label: Hosted service · you call their endpoint
+  confidence: high
+  source:
+  - openapi
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: freemium
   onboarding: unknown
