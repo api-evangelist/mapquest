@@ -176,6 +176,8 @@ apis:
   - type: Documentation
     url: https://developer.mapquest.com/documentation/directions-api/
 common:
+  - type: Website
+    url: https://www.mapquest.com/
   - type: AgenticAccess
     url: agentic-access/mapquest-agentic-access.yml
   - type: DomainSecurity
