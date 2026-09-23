@@ -1,7 +1,7 @@
 {
   "provider": "mapquest",
   "sources": [
-    "mapquest-directions-api-openapi.yml"
+    "_ae-authored/mapquest-openapi.yml"
   ],
   "outputs": [
     "mapquest-directions-api-openapi.yml"
@@ -9,6 +9,24 @@
   "archived": [],
   "errors": [],
   "warnings": [],
-  "notes": [],
-  "skipped": []
+  "notes": [
+    "sourced from openapi/_original/ (0 archived document(s)); previously refined output at the top level was skipped rather than re-split",
+    "mapquest-openapi.yml: upgraded openapi 3.1.0 -> OpenAPI 3.2.0",
+    "mapquest-openapi.yml: tagged paths GET /directions/v2/route -> Directions",
+    "mapquest-openapi.yml: tagged paths POST /directions/v2/route -> Directions",
+    "mapquest-openapi.yml: tagged paths GET /directions/v2/optimizedroute -> Directions",
+    "mapquest-openapi.yml: tagged paths POST /directions/v2/optimizedroute -> Directions",
+    "mapquest-openapi.yml: tagged paths POST /directions/v2/routematrix -> Directions",
+    "mapquest-openapi.yml: tagged paths POST /directions/v2/routematrix/jobs -> Directions",
+    "mapquest-openapi.yml: tagged paths GET /directions/v2/routematrix/jobs/{jobId} -> Directions",
+    "mapquest-openapi.yml: tagged paths GET /directions/v2/routematrix/jobs/{jobId}/results -> Directions",
+    "mapquest-openapi.yml: tagged paths GET /directions/v2/alternateroutes -> Directions",
+    "mapquest-openapi.yml: tagged paths POST /directions/v2/alternateroutes -> Directions",
+    "mapquest-openapi.yml: tagged paths GET /directions/v2/routeshape -> Directions",
+    "mapquest-openapi.yml: declared missing tag: Directions",
+    "apis.yml register: already-registered"
+  ],
+  "skipped": [
+    "mapquest-directions-api-openapi.yml: previously refined output, superseded by openapi/_original/"
+  ]
 }
