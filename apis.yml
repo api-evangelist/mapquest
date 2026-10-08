@@ -176,6 +176,12 @@ apis:
   - type: Documentation
     url: https://developer.mapquest.com/documentation/directions-api/
 common:
+  - type: Plans
+    url: plans/mapquest-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/mapquest-rate-limits.yml
+  - type: FinOps
+    url: finops/mapquest-finops.yml
   - type: Website
     url: https://www.mapquest.com/
   - type: AgenticAccess
