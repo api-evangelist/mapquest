@@ -1,4 +1,4 @@
-# MapQuest (mapquest)
+# MapQuest
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,226 +66,127 @@
 
 MapQuest provides mapping, geocoding, routing, and traffic data APIs for developers to build location-aware applications. The developer portal offers free API keys and documentation for directions, static maps, geocoding, and traffic incident services.
 
-**APIs.json:** [https://raw.githubusercontent.com/api-evangelist/mapquest/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/mapquest/refs/heads/main/apis.yml)
+**Areas:** Geocoding · Mapping · Maps · Navigation · Routing · Traffic
 
-## Scope
+## MapQuest on APIs.io
 
-- **Type:** Index
+Everything profiled for MapQuest is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/mapquest/](https://apis.io/providers/mapquest/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### APIs (10)
 
-- Geocoding
-- Mapping
-- Maps
-- Navigation
-- Routing
-- Traffic
+- [MapQuest Geocoding API](https://apis.io/apis/mapquest/mapquest-geocoding-api/) — The MapQuest Geocoding API converts addresses into geographic coordinates and vice versa, supporting both single and batch geocoding requests.
+- [MapQuest Static Map API](https://apis.io/apis/mapquest/mapquest-static-map-api/) — The MapQuest Static Map API returns a map image based on specified parameters including center, zoom, size, and map type.
+- [MapQuest Traffic API](https://apis.io/apis/mapquest/mapquest-traffic-api/) — The MapQuest Traffic API returns traffic incidents for a specified bounding box in JSON or XML formats, including road construction and collisions.
+- [MapQuest Search API](https://apis.io/apis/mapquest/mapquest-search-api/) — The MapQuest Search API supports radius, rectangle, polygon, and corridor searches against MapQuest hosted data tables, returning matching points of…
+- [MapQuest Place Search API](https://apis.io/apis/mapquest/mapquest-place-search-api/) — The MapQuest Place Search API returns places matching a search query, with support for category, location, and bounding-box filtering.
+- [MapQuest Search Ahead API](https://apis.io/apis/mapquest/mapquest-search-ahead-api/) — The MapQuest Search Ahead API delivers prediction-based search suggestions as users type, supporting addresses, places, categories, and admin areas.
+- [MapQuest Geolocation API](https://apis.io/apis/mapquest/mapquest-geolocation-api/) — The MapQuest Geolocation API returns the approximate location of a device based on cell tower and Wi-Fi access point information.
+- [MapQuest Icons API](https://apis.io/apis/mapquest/mapquest-icons-api/) — The MapQuest Icons API serves customizable map marker icons for use with MapQuest static and interactive maps.
+- [MapQuest Data Manager API](https://apis.io/apis/mapquest/mapquest-data-manager-api/) — The MapQuest Data Manager API allows developers to upload, manage, and query custom hosted data tables for use with MapQuest search and mapping services.
+- [MapQuest Directions API](https://apis.io/apis/mapquest/mapquest-directions-api/) — The Directions API from MapQuest — 8 operation(s) for directions.
 
-## Timestamps
+### Published properties
 
-- **Created:** 2025-01-07
-- **Modified:** 2026-05-19
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### Agentic access (1)
 
-### MapQuest Directions API
+Which operations an agent can call, which act, and which need a human in the loop.
 
-The MapQuest Directions API provides routing capabilities with turn-by-turn directions, alternate routes, optimized routes, and travel time estimates using real-time traffic data.
+- [Mapquest Agentic Access](https://apis.io/agentic-access/mapquest/mapquest-agentic-access/)
 
-- **Human URL:** [https://developer.mapquest.com/documentation/directions-api/](https://developer.mapquest.com/documentation/directions-api/)
-- **Base URL:** `https://www.mapquestapi.com/directions/v2`
+#### Collections (2)
 
-#### Tags
+Postman and Open Collection request collections.
 
-- Directions
-- Navigation
-- Routing
+- [MapQuest Directions API](https://apis.io/collections/mapquest/open-mapquest/)
+- [MapQuest Directions API](https://apis.io/collections/mapquest/open-mapquest-directions-api/)
 
-#### Properties
+#### Security (1)
 
-- [Documentation](https://developer.mapquest.com/documentation/directions-api/)
-- [OpenAPI](openapi/mapquest-openapi.yml) — [OpenAPI Specification](https://spec.openapis.org/oas/latest.html)
-- [Postman Collection](collections/mapquest.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
-- [Open Collection](collections/mapquest.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
+Authentication, trust centre, and vulnerability disclosure.
 
-### MapQuest Geocoding API
+- [Mapquest Domain Security](https://apis.io/security/mapquest/mapquest-domain-security/)
 
-The MapQuest Geocoding API converts addresses into geographic coordinates and vice versa, supporting both single and batch geocoding requests.
+#### Plans and pricing (1)
 
-- **Human URL:** [https://developer.mapquest.com/documentation/geocoding-api/](https://developer.mapquest.com/documentation/geocoding-api/)
-- **Base URL:** `https://www.mapquestapi.com/geocoding/v1`
+Published plans, tiers and prices.
 
-#### Tags
+- [Mapquest Plans Pricing](https://apis.io/plans/mapquest/mapquest-plans-pricing/)
 
-- Geocoding
-- Location
+#### Rate limits (1)
 
-#### Properties
+Published request limits.
 
-- [Documentation](https://developer.mapquest.com/documentation/geocoding-api/)
-- [Postman Collection](collections/mapquest.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
-- [Open Collection](collections/mapquest.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
+- [Mapquest Rate Limits](https://apis.io/rate-limits/mapquest/mapquest-rate-limits/)
 
-### MapQuest Static Map API
+#### FinOps (1)
 
-The MapQuest Static Map API returns a map image based on specified parameters including center, zoom, size, and map type.
+What the API costs to run, by operation.
 
-- **Human URL:** [https://developer.mapquest.com/documentation/static-map-api/v5/](https://developer.mapquest.com/documentation/static-map-api/v5/)
-- **Base URL:** `https://www.mapquestapi.com/staticmap/v5`
+- [Mapquest Finops](https://apis.io/finops/mapquest/mapquest-finops/)
 
-#### Tags
+## Where to find this API
 
-- Maps
-- Static Maps
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-#### Properties
-
-- [Documentation](https://developer.mapquest.com/documentation/static-map-api/v5/)
-- [Postman Collection](collections/mapquest.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
-- [Open Collection](collections/mapquest.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
-
-### MapQuest Traffic API
-
-The MapQuest Traffic API returns traffic incidents for a specified bounding box in JSON or XML formats, including road construction and collisions.
-
-- **Human URL:** [https://developer.mapquest.com/documentation/traffic-api/](https://developer.mapquest.com/documentation/traffic-api/)
-- **Base URL:** `https://www.mapquestapi.com/traffic/v2`
-
-#### Tags
-
-- Incidents
-- Traffic
-
-#### Properties
-
-- [Documentation](https://developer.mapquest.com/documentation/traffic-api/)
-- [Reference](https://developer.mapquest.com/documentation/api/traffic/incidents/get.html)
-- [Postman Collection](collections/mapquest.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
-- [Open Collection](collections/mapquest.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
-
-### MapQuest Search API
-
-The MapQuest Search API supports radius, rectangle, polygon, and corridor searches against MapQuest hosted data tables, returning matching points of interest with attributes.
-
-- **Human URL:** [https://developer.mapquest.com/documentation/searchapi/](https://developer.mapquest.com/documentation/searchapi/)
-- **Base URL:** `https://www.mapquestapi.com/search/v2`
-
-#### Tags
-
-- Points of Interest
-- Search
-
-#### Properties
-
-- [Documentation](https://developer.mapquest.com/documentation/searchapi/)
-- [Postman Collection](collections/mapquest.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
-- [Open Collection](collections/mapquest.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
-
-### MapQuest Place Search API
-
-The MapQuest Place Search API returns places matching a search query, with support for category, location, and bounding-box filtering.
-
-- **Human URL:** [https://developer.mapquest.com/documentation/place-search-api/v5/](https://developer.mapquest.com/documentation/place-search-api/v5/)
-- **Base URL:** `https://www.mapquestapi.com/search/v5`
-
-#### Tags
-
-- Place Search
-- Points of Interest
-- Search
-
-#### Properties
-
-- [Documentation](https://developer.mapquest.com/documentation/place-search-api/v5/)
-- [Postman Collection](collections/mapquest.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
-- [Open Collection](collections/mapquest.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
-
-### MapQuest Search Ahead API
-
-The MapQuest Search Ahead API delivers prediction-based search suggestions as users type, supporting addresses, places, categories, and admin areas.
-
-- **Human URL:** [https://developer.mapquest.com/documentation/searchahead-api/v5/](https://developer.mapquest.com/documentation/searchahead-api/v5/)
-- **Base URL:** `https://www.mapquestapi.com/search/v5`
-
-#### Tags
-
-- Autocomplete
-- Search
-- Search Ahead
-
-#### Properties
-
-- [Documentation](https://developer.mapquest.com/documentation/searchahead-api/v5/)
-- [Postman Collection](collections/mapquest.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
-- [Open Collection](collections/mapquest.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
-
-### MapQuest Geolocation API
-
-The MapQuest Geolocation API returns the approximate location of a device based on cell tower and Wi-Fi access point information.
-
-- **Human URL:** [https://developer.mapquest.com/documentation/geolocation-api/](https://developer.mapquest.com/documentation/geolocation-api/)
-- **Base URL:** `https://www.mapquestapi.com/geolocation/v1`
-
-#### Tags
-
-- Geolocation
-- Location
-
-#### Properties
-
-- [Documentation](https://developer.mapquest.com/documentation/geolocation-api/)
-- [Postman Collection](collections/mapquest.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
-- [Open Collection](collections/mapquest.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
-
-### MapQuest Icons API
-
-The MapQuest Icons API serves customizable map marker icons for use with MapQuest static and interactive maps.
-
-- **Human URL:** [https://developer.mapquest.com/documentation/icons-api/](https://developer.mapquest.com/documentation/icons-api/)
-- **Base URL:** `https://www.mapquestapi.com/icons/v2`
-
-#### Tags
-
-- Icons
-- Maps
-
-#### Properties
-
-- [Documentation](https://developer.mapquest.com/documentation/icons-api/)
-- [Postman Collection](collections/mapquest.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
-- [Open Collection](collections/mapquest.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
-
-### MapQuest Data Manager API
-
-The MapQuest Data Manager API allows developers to upload, manage, and query custom hosted data tables for use with MapQuest search and mapping services.
-
-- **Human URL:** [https://developer.mapquest.com/documentation/data-manager-api/v2/](https://developer.mapquest.com/documentation/data-manager-api/v2/)
-- **Base URL:** `https://www.mapquestapi.com/datamanager/v2`
-
-#### Tags
-
-- Custom Data
-- Data Management
-
-#### Properties
-
-- [Documentation](https://developer.mapquest.com/documentation/data-manager-api/v2/)
-- [Postman Collection](collections/mapquest.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
-- [Open Collection](collections/mapquest.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
-
-## Common Properties
-
-- [GitHub Organization](https://github.com/MapQuest)
-- [LinkedIn](https://www.linkedin.com/company/mapquest)
-- [Portal](https://developer.mapquest.com/)
-- [Getting Started](https://developer.mapquest.com/documentation/)
-- [Sign Up](https://developer.mapquest.com/plan_purchase/steps/business_edition/business_edition_free/register)
-- [Login](https://developer.mapquest.com/user/login)
+- [Website](https://www.mapquest.com/)
+- [Getting started](https://developer.mapquest.com/documentation/)
 - [Support](https://developer.mapquest.com/support/)
-- [Terms of Service](https://hello.mapquest.com/terms-of-use)
-- [Privacy Policy](https://hello.mapquest.com/privacy-policy)
+- [Blog](https://developer.mapquest.com/blog/archive/)
+- [Terms of service](https://hello.mapquest.com/terms-of-use)
+- [Privacy policy](https://hello.mapquest.com/privacy-policy)
+- [GitHub](https://github.com/MapQuest)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
-**Email:** kin@apievangelist.com
+**Kin Score 32.9** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 71.4 |
+| Contract quality | 38.6 |
+| Contract governance | 0.0 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 42.9 |
+| Access clarity | 35.5 |
+
+**Agent readiness 15.4** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | derived (partial credit) |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 13.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/mapquest/](https://apis.io/providers/mapquest/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for MapQuest: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/mapquest/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
